@@ -1,0 +1,51 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Full screen center */
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #141e30, #243b55);
+}
+
+/* Main container */
+.center {
+  text-align: center;
+}
+
+/* Title */
+#banner span {
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/* Clock box */
+#clock {
+  margin-top: 20px;
+  font-size: 60px;
+  color: #00ffcc;
+  background: #111;
+  padding: 20px 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px #00ffcc,
+              0 0 40px #00ffcc,
+              0 0 60px #00ffcc;
+  transition: 0.3s;
+}
+
+/* Hover effect */
+#clock:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 30px #00ffcc,
+              0 0 60px #00ffcc,
+              0 0 90px #00ffcc;
+}

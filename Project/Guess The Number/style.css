@@ -1,0 +1,101 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #1d2671, #c33764);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main container */
+#wrapper {
+  background: white;
+  padding: 30px;
+  width: 400px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+  transition: 0.3s;
+}
+
+/* Hover effect */
+#wrapper:hover {
+  transform: scale(1.02);
+}
+
+/* Heading */
+h1 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* Paragraph */
+p {
+  margin: 8px 0;
+  color: #555;
+}
+
+/* Input field */
+.guessfield {
+  width: 80%;
+  padding: 10px;
+  margin: 15px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+/* Input focus */
+.guessfield:focus {
+  border: 2px solid #c33764;
+}
+
+/* Button */
+.guessSubmit {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  background: #c33764;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Button hover */
+.guessSubmit:hover {
+  background: #1d2671;
+  transform: scale(1.05);
+}
+
+/* Result section */
+.resultparas {
+  margin-top: 20px;
+}
+
+/* Previous guesses */
+.guesses {
+  color: #c33764;
+  font-weight: bold;
+}
+
+/* Remaining guesses */
+.lastresult {
+  color: #1d2671;
+  font-weight: bold;
+}
+
+/* Message (low/high) */
+.lowOrHi {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}

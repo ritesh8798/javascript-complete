@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Object Model - DOM</title>
+</head>
+<body>
+    <!-- selecting element -->
+    <button id="subscribe-button">Subscribe</button>
+
+    <button class="Second-button"><S>Click Here</S></button>
+    <script >
+
+        //basic selectors --
+
+        console.log(document.querySelector('button'));
+        // document.querySelector('button').innerHTML = 'Changed !'
+
+        const buttonElement = document.querySelector('.Second-button');
+        console.log(buttonElement);
+
+        /*
+        document.body.innerHTML = "Subscribe Now" //removes everything on the page and change text into "Subscribe Now"
+        document.title = 'DOM' //changes document title to DOM
+        */
+        
+        // console.log(document.title);
+        // console.log(document.body);
+        // console.log(typeof document.body);
+        // console.log(document.body.innerHTML);
+        // document.body.innerHTML = '<button>Good Job</button>'
+    </script>
+</body>
+</html>

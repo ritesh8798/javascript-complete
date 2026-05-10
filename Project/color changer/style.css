@@ -1,0 +1,61 @@
+.canvas {
+  text-align: center;
+  margin-top: 50px;
+}
+
+h2{
+    margin: 2rem;
+    color: #6203e0;
+}
+
+#colorbox {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+#colorbox span{
+    cursor: pointer;
+
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  border-radius: 50%; 
+  cursor: pointer;
+  border: 2px solid black;
+  color: rgb(232, 232, 217);
+}
+
+#grey {
+  background-color: grey;
+}
+
+#red {
+  background-color: red;
+}
+
+#white {
+  background-color: white;
+  color: black;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#black {
+  background-color: black;
+}
+
+#orange {
+  background-color: orange;
+}

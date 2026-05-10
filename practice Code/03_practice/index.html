@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Session 3</title>
+    <style>
+        *{
+            /* background-color: #f0f0f0; */
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        html, body{
+            height: 100%;
+            width: 100%;
+            background-color: #333;
+        }
+
+        #main{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        input[type="file"]{
+            display: none;
+        }
+
+        #btn{
+            padding: 12px 22px;
+            background-color: #55b883;
+            border-radius: 10px;
+            color: #fff;
+            font-weight: 500;
+            cursor: pointer;
+        }
+
+        #btn:hover{
+            background-color: #2f8359;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <input type="file">
+        <div id="btn">Upload File</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

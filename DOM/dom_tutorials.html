@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Selecting Elements</title>
+</head>
+<body>
+    <h1>JavaScript HTML DOM</h1>
+    <p>Finding HTML element by class name</p>
+    <p class="intro">Hello JavaScript DOM</p>
+    <p class="intro">This example demonstrates the <b>getElementsByClassName</b></p>
+    <p id="demo"></p>
+
+    h1>JavaScript HTML DOM</h1>
+    <h2>The querySelector() Method</h2>
+
+    <p class="demo"></p>
+
+    <p class="para">one</p>
+    <p class="para">two</p>
+    
+
+
+    <script>
+    const x = document.getElementsByClassName("intro");
+    document.getElementById("demo").innerHTML = 
+    'The first paragraph (index 0) with class="intro" is: ' + x[0].innerHTML;
+
+    // Access a paragraph Element
+    const myPara = document.querySelector(".demo");
+
+    // Change the content of the Element
+    myPara.innerHTML = "Hello World!";
+
+    const myItems = document.querySelectorAll(".para");
+    myItems[0].innerHTML = "First";
+    </script>
+
+</body>
+</html>
