@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.container{
+    background: rgba(255, 255, 255, 0.1);
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0,0,0, 0.3);
+    text-align: center;
+    width: 400px;
+    color: white;
+}
+
+h1{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.input-container{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 1.5rem;
+}
+
+input{
+    flex: 1;
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+    outline: none;
+}
+
+button{
+    padding: 10px 15px;
+    background: #e94560;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover{
+    background: #c73652;
+}
+
+#weather-info{
+    background: rgba(255, 255, 255, 0.15);
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+#weather-info h2{
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+#weather-info p{
+    font-size: 1.1rem;
+    margin-top: 0.4rem;
+}
+
+.hidden{
+    display: none;
+}
+
+#error-message{
+    color: #ff6b6b;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
